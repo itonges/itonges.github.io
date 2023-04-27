@@ -7,12 +7,6 @@
     <title>Isaac Tonges Resume</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script>
-        $(document).ready(function() {
-            $('#resume').load('Hello World!');
-        })
-    </script>
 </head>
 
 <body>
@@ -22,9 +16,13 @@
             --><a href="./projects.html">Projects</a><!--
             --><a href="./resume.html">Resume</a>
         </div>
-        <div class="content">
-            <div id="resume"></div>
+        <div class="color-modes">
+            //TODO: Add light and dark mode, with icons for switching
         </div>
+    </div>
+    <div class="content">
+        <object class="resume" name="resume" type="text/html" data="Resume.xhtml"></object>
+    </div>
 </body>
 
 </html>
